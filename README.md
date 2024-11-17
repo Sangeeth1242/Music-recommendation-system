@@ -5,12 +5,13 @@ A music recommendation system built using Spotify's Web API, which utilizes both
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Process](#process)
+2. [Libraries and Technologies](#libraries-and-technologies)
+3. [Process](#process)
     1. [Data Collection](#data-collection)
     2. [Data Preprocessing](#data-preprocessing)
     3. [Recommendation Algorithms](#recommendation-algorithms)
-3. [Results](#results)
-4. [Conclusion](#conclusion)
+4. [Results](#results)
+5. [Conclusion](#conclusion)
 
 ---
 
@@ -22,6 +23,25 @@ This project leverages the Spotify Web API to create a music recommendation syst
 - **Content-Based Filtering**: Recommends songs similar to a given input based on their audio features.
 - **Hybrid Recommendations**: Enhances the content-based recommendations by factoring in song popularity and release dates.
 - **Trending Playlist Data**: Fetches and processes data from trending Spotify playlists, providing detailed information about each track.
+
+---
+
+## Libraries and Technologies
+
+### Technologies
+- **Python**: The primary programming language for building the recommendation system.
+- **Spotify Web API**: Used to fetch song data, metadata, and audio features for the recommendation process.
+
+### Libraries
+- **Spotipy**: A Python library for interacting with Spotify's API, used for data retrieval.
+- **NumPy**: For numerical computations and data handling.
+- **Pandas**: To preprocess, clean, and analyze the fetched dataset.
+- **Scikit-learn**: For implementing machine learning techniques like cosine similarity and data normalization.
+- **Matplotlib**/**Seaborn**: (Optional) For visualizing relationships between audio features (not part of the core process).
+
+### Tools
+- **Jupyter Notebook**: Used for development, experimentation, and testing.
+- **Spotify Developer Dashboard**: For creating the API application and retrieving the client credentials required to access the Spotify Web API.
 
 ---
 
